@@ -3,7 +3,7 @@ public class AccountListCmp {
     /*
 	Method Name	: getExternalobjectrecords
 	Purpose		: To get the wrapper of Columns and Headers
-	Testing     : TestingTestingFeature01
+	Testing     : TestingTestingFeature01-QA
 	*/
     //public List<TestIntegration_cs__x> acclst{get;set;}
     
