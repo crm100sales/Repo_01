@@ -9,8 +9,7 @@ public class AccountListCmp02 {
 	
 		String searchQuery = 'Select' + ' IntegratName_c__c, IntegrationNo_c__c, IntegrationEmail_c__c, IntegrationDate_c__c, Category_c__c, (select id, externalid, Name__c, Amount_c__c, TestIntegration_c__c from TestIntegrationChild_cs__r ) '  + ' From TestIntegration_cs__x ' + ' Limit 3 ' ;
       
-        //searchQuery += ' Order by '        
-        tstIntegrationList = Database.query(searchQuery);
+        /
         
             }
     
