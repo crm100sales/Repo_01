@@ -15,8 +15,7 @@ public class AccountListCmp {
         Schema.DescribeSObjectResult DescribeSObjectResultObj = SObjectTypeObj.getDescribe();            
         Schema.FieldSet fieldSetObj = DescribeSObjectResultObj.FieldSets.getMap().get(strFieldSetName);
         
-        //To hold the table hearders 
-        List<DataTableColumns> lstDataColumns = new List<DataTableColumns>();
+        
         
         //Field to be queried - fetched from fieldset
         List<String> lstFieldsToQuery = new List<String>();

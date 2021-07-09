@@ -12,9 +12,7 @@ public class AccountListCmp02 {
         //searchQuery += ' Order by '        
         tstIntegrationList = Database.query(searchQuery);
         
-        system.debug('Value for tstIntegrationList is: ' +tstIntegrationList);
-        return new DMLResponseAura ('Success', JSON.Serialize(tstIntegrationList) );
-    }
+            }
     
     @AuraEnabled
     public static DMLResponseAura getSOSLfetchBothTables(String srchTerm, Boolean searchTerm1, Boolean searchTerm2, Boolean searchTerm3){    
